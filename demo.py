@@ -5,6 +5,7 @@ import streamlit as st
 
 from toolz import partition_all
 
+from probing_norms.data import load_binder_dense
 from probing_norms.get_results import (
     FEATURE_NAMES,
     MAIN_TABLE_MODELS,
@@ -155,6 +156,16 @@ def show_results(norms_type, norms_loader, models, feature, filter, sorter, num_
     feature_to_concepts, _, features_selected = norms_loader()
     concepts = norms_loader.load_concepts()
 
+    if norms_type == "binder-median":
+        df_binder = load_binder_dense()
+        df_binder = df_binder[df_binder["Feature"] == feature]
+        df_binder = df_binder.set_index("Word")
+        median = df_binder["Value"].median()
+        st.write("Median rating: {:.2f}".format(median))
+
+        def get_rating_str(concept):
+            return "rating: {:.1f}".format(df_binder.loc[concept, "Value"])
+
     # FIXME These results were generated with get_results.py aggregate_predictions_for_demo
     # I had to use NumPy to be able to push those to GitHub and use them on Streamlit cloud.
     # Is there a better solution? Maybe host the files on GitHub releases?
@@ -181,7 +192,7 @@ def show_results(norms_type, norms_loader, models, feature, filter, sorter, num_
         ss = [
             "concept: {}".format(concept, is_positive_str),
             "positive: {}".format(is_positive_str),
-        ] + [
+        ] + ([get_rating_str(concept)] if norms_type == "binder-median" else []) + [
             "score {}: {:.2f}".format(FEATURE_NAMES[model], row[model])
             for model in models
         ]
