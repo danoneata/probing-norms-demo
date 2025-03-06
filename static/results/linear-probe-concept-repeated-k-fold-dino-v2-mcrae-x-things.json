@@ -1,0 +1,2772 @@
+[
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_bird",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.54151404151403,
+        "score-precision": 96.07142857142857,
+        "score-recall": 72.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_building",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.82692307692308,
+        "score-precision": 48.86904761904761,
+        "score-recall": 36.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_carnivore",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 72.25035096933826,
+        "score-precision": 78.7945632798574,
+        "score-recall": 69.85714285714286
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_cat",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 30.992063492063494,
+        "score-precision": 37.5,
+        "score-recall": 27.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_container",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 50.11473490399577,
+        "score-precision": 50.548840818377045,
+        "score-recall": 50.217706821480405
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_fish",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 35.493767051661784,
+        "score-precision": 39.41330891330891,
+        "score-recall": 33.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_food",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 81.01140003996943,
+        "score-precision": 81.59612876479528,
+        "score-recall": 80.62754535357274
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_fruit",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.69444844003667,
+        "score-precision": 74.69209956709958,
+        "score-recall": 65.08333333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_gun",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.373015873015866,
+        "score-precision": 64.83333333333334,
+        "score-recall": 29.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_herbivore",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 66.83438210964448,
+        "score-precision": 72.5844017094017,
+        "score-recall": 63.39743589743589
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_house",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 28.809246309246312,
+        "score-precision": 36.36141636141636,
+        "score-recall": 24.615384615384613
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_mammal",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 95.93997815050446,
+        "score-precision": 97.42105263157895,
+        "score-recall": 94.73684210526315
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_musical_instrument",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.87407037407039,
+        "score-precision": 88.07142857142857,
+        "score-recall": 64.46428571428571
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_pet",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.9778603749192,
+        "score-precision": 64.80555555555556,
+        "score-recall": 49.02777777777778
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_predator",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 63.07632777725657,
+        "score-precision": 68.48609723609724,
+        "score-recall": 60.909090909090914
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_rodent",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 67.23809523809523,
+        "score-precision": 84.16666666666666,
+        "score-recall": 61.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_scavenger",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.56848706848707,
+        "score-precision": 49.238095238095234,
+        "score-recall": 38.19444444444444
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_tool",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 63.35551618810617,
+        "score-precision": 63.98493910729977,
+        "score-recall": 62.905533347359565
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_toy",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 34.364911443211,
+        "score-precision": 40.50215281794229,
+        "score-recall": 30.625
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_tree",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.90955064252937,
+        "score-precision": 52.12495240888937,
+        "score-recall": 47.6
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_utensil",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 50.36544691006934,
+        "score-precision": 52.47592321952936,
+        "score-recall": 49.069264069264065
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_vegetable",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 60.585293334921765,
+        "score-precision": 64.2451731740378,
+        "score-recall": 59.333333333333336
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_vehicle",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.77145744125094,
+        "score-precision": 80.06343706706683,
+        "score-recall": 72.91871921182266
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_weapon",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.45356540230682,
+        "score-precision": 58.90259740259741,
+        "score-recall": 49.090909090909086
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_animal",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 94.07914353936572,
+        "score-precision": 95.98379647296056,
+        "score-recall": 92.32574679943102
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_appliance",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.3412330470771,
+        "score-precision": 54.29994655653601,
+        "score-recall": 51.72413793103448
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_insect",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 72.46031746031746,
+        "score-precision": 89.66666666666666,
+        "score-recall": 65.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_builds_nests",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.36535248377353,
+        "score-precision": 81.40800865800865,
+        "score-recall": 62.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_cannot_fly",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.71982308089959,
+        "score-precision": 81.78399292801839,
+        "score-recall": 79.9455732946299
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_chirps",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.68437118437119,
+        "score-precision": 63.58333333333333,
+        "score-recall": 37.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_crawls",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.67904791050572,
+        "score-precision": 68.12464985994399,
+        "score-recall": 65.37878787878788
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 91.77070970462907,
+        "score-precision": 92.45142881268592,
+        "score-recall": 91.47098515519568
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_fish",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 63.7710849521995,
+        "score-precision": 71.43506493506493,
+        "score-recall": 59.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_garbage",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 16.493506493506494,
+        "score-precision": 25.333333333333332,
+        "score-recall": 14.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_grass",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 73.89882795223352,
+        "score-precision": 84.97943722943724,
+        "score-recall": 67.55555555555556
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_insects",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 57.43290043290043,
+        "score-precision": 56.88077200577201,
+        "score-recall": 59.77272727272727
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_flies",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 78.65864037922861,
+        "score-precision": 81.8452380952381,
+        "score-recall": 76.25
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_hunts",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 66.3587824372307,
+        "score-precision": 69.27709545356603,
+        "score-recall": 65.42857142857142
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_jumps",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 72.5928490998182,
+        "score-precision": 72.27408702408702,
+        "score-recall": 74.16666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_lays_eggs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.62165506796237,
+        "score-precision": 84.57427294927295,
+        "score-recall": 78.23529411764706
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_migrates",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.32753357753357,
+        "score-precision": 76.17857142857142,
+        "score-recall": 60.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_runs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.60139655374005,
+        "score-precision": 81.11765575325947,
+        "score-recall": 81.14718614718615
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_sings",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 20.857142857142854,
+        "score-precision": 27.5,
+        "score-recall": 18.333333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_swims",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.17449809131058,
+        "score-precision": 82.38591963591963,
+        "score-recall": 71.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_travels_in_herds",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 72.74454630336984,
+        "score-precision": 79.6984126984127,
+        "score-recall": 68.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "bought/sold_in_stores",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 89.24604182142963,
+        "score-precision": 89.76124894212937,
+        "score-recall": 88.75432525951558
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "clothing",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.84527212306799,
+        "score-precision": 79.29135763298476,
+        "score-recall": 73.18181818181817
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "comes_in_pairs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.89898502568552,
+        "score-precision": 44.751761648313376,
+        "score-recall": 43.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "different_colours",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 79.14995305498431,
+        "score-precision": 79.26190219087314,
+        "score-recall": 79.05660377358491
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "different_sizes",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 96.85559747528166,
+        "score-precision": 96.7393223463359,
+        "score-recall": 96.98191008246874
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_as_meat",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.38940694049361,
+        "score-precision": 72.16661043634727,
+        "score-recall": 67.6086956521739
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_by_baking",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.004867849147566,
+        "score-precision": 42.31300711672229,
+        "score-recall": 42.785714285714285
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_by_cooking",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 61.25300289607368,
+        "score-precision": 62.21409221409222,
+        "score-recall": 60.9375
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_pies",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 26.74937343358396,
+        "score-precision": 28.89141414141414,
+        "score-recall": 25.18181818181818
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_salads",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 64.42198169434144,
+        "score-precision": 68.06751491201177,
+        "score-recall": 61.90217391304348
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_soups",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.788322196208945,
+        "score-precision": 58.232451758767546,
+        "score-recall": 50.70652173913043
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_summer",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.55323269224856,
+        "score-precision": 60.454028919492785,
+        "score-recall": 57.61088709677419
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_bathrooms",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.57274558489347,
+        "score-precision": 45.100125495564875,
+        "score-recall": 39.596638655462186
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_bedrooms",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.23987193329865,
+        "score-precision": 52.7794648051006,
+        "score-recall": 51.78452425027767
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_houses",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 83.05549578869007,
+        "score-precision": 83.67001696532766,
+        "score-recall": 82.51248060446603
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_kitchens",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 76.94951373346869,
+        "score-precision": 77.50913614666345,
+        "score-recall": 76.55183312262957
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_on_walls",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 49.53051093002052,
+        "score-precision": 53.89359717467138,
+        "score-recall": 46.96969696969697
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "furniture",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.18757023175529,
+        "score-precision": 51.18625903792144,
+        "score-recall": 45.70833333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_forests",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 44.966024435189524,
+        "score-precision": 47.64859336569863,
+        "score-recall": 43.10457516339869
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_gardens",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.1701965400276,
+        "score-precision": 81.29791637707044,
+        "score-recall": 79.80072463768116
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_the_ground",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.47495465555525,
+        "score-precision": 69.66787884121979,
+        "score-recall": 67.59057971014492
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_on_trees",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.091989719425996,
+        "score-precision": 64.59848484848484,
+        "score-recall": 54.8901098901099
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_2_wheels",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 20.19047619047619,
+        "score-precision": 21.666666666666664,
+        "score-recall": 20.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_4_legs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 86.52052170772333,
+        "score-precision": 87.19668109668109,
+        "score-recall": 86.13333333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_4_wheels",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.72601847756646,
+        "score-precision": 85.21031746031746,
+        "score-recall": 70.13888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_beak",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 82.85789210789211,
+        "score-precision": 97.5,
+        "score-recall": 73.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_blade",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.85323343430304,
+        "score-precision": 43.234080183736936,
+        "score-recall": 41.11111111111111
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_door",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.21681749622925,
+        "score-precision": 73.31975867269985,
+        "score-recall": 64.53216374269006
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_handle",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 63.62100746201484,
+        "score-precision": 65.15588769441885,
+        "score-recall": 62.60606060606061
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_head",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.41503398351828,
+        "score-precision": 65.08884195747525,
+        "score-recall": 66.10701754385966
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_lid",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.86524409191336,
+        "score-precision": 56.27589819081754,
+        "score-recall": 54.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_long_neck",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 35.55472384213803,
+        "score-precision": 39.31754356754357,
+        "score-recall": 34.1025641025641
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_long_tail",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.6896789145775,
+        "score-precision": 62.21098277367628,
+        "score-recall": 57.058823529411754
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_neck",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.42842796503518,
+        "score-precision": 72.02194388557771,
+        "score-recall": 71.52173913043478
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_pit",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 12.222222222222223,
+        "score-precision": 12.0,
+        "score-recall": 12.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_pointed_end",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 45.350817762396076,
+        "score-precision": 45.79946435390464,
+        "score-recall": 45.1063829787234
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_roof",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 56.158531242374394,
+        "score-precision": 62.23554550025138,
+        "score-recall": 54.28571428571429
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_seat",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 73.82424163855536,
+        "score-precision": 75.28560240081978,
+        "score-recall": 72.83333333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_shell",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 44.16373208939202,
+        "score-precision": 46.98565481023191,
+        "score-recall": 42.32574679943101
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_skin",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.79515625099846,
+        "score-precision": 77.6692597308405,
+        "score-recall": 74.31533646322379
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_tail",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 82.93687788263446,
+        "score-precision": 86.83099332642125,
+        "score-recall": 79.62566844919786
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_trigger",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.089257622472054,
+        "score-precision": 46.820346320346324,
+        "score-recall": 36.36363636363636
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_wooden_handle",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 49.7205062697297,
+        "score-precision": 51.53528802825478,
+        "score-recall": 48.63636363636364
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_zipper",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 59.48717948717949,
+        "score-precision": 68.0,
+        "score-recall": 53.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_an_engine",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 77.53626268603695,
+        "score-precision": 79.33140762746027,
+        "score-recall": 76.66666666666667
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_an_inside",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.90772810608539,
+        "score-precision": 81.02568256375177,
+        "score-recall": 80.82644628099173
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_blades",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.67628047187411,
+        "score-precision": 42.86820146545547,
+        "score-recall": 41.44736842105263
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_buttons",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.55661612274663,
+        "score-precision": 58.65526511862254,
+        "score-recall": 51.94117647058823
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_claws",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 74.64369538711644,
+        "score-precision": 78.10378888397464,
+        "score-recall": 71.9298245614035
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_doors",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.49732580586307,
+        "score-precision": 74.56592508798391,
+        "score-recall": 69.875
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_drawers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.666666666666664,
+        "score-precision": 66.66666666666666,
+        "score-recall": 33.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_ears",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 80.78382683734404,
+        "score-precision": 82.57209140185152,
+        "score-recall": 79.41666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_eyes",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 90.22993687029977,
+        "score-precision": 92.73031044982264,
+        "score-recall": 88.09615384615384
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_feathers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 87.59493284493286,
+        "score-precision": 95.32142857142857,
+        "score-recall": 82.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_feet",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 73.4785609370577,
+        "score-precision": 73.35444269748336,
+        "score-recall": 74.09013605442178
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_fins",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.48734598734599,
+        "score-precision": 76.84920634920636,
+        "score-recall": 53.095238095238095
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_fur",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 79.02419254236892,
+        "score-precision": 83.16079508726567,
+        "score-recall": 76.2280701754386
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_gills",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.46969696969697,
+        "score-precision": 79.5,
+        "score-recall": 67.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_hair",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.76439474647815,
+        "score-precision": 73.4166104593391,
+        "score-recall": 70.4131054131054
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_handles",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.974520333073066,
+        "score-precision": 59.27794078060846,
+        "score-recall": 58.92857142857143
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_holes",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 34.919269336004405,
+        "score-precision": 34.87620822459532,
+        "score-recall": 35.1025641025641
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_hooves",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 81.25252525252526,
+        "score-precision": 88.14285714285714,
+        "score-recall": 79.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_horns",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 35.83549783549783,
+        "score-precision": 55.666666666666664,
+        "score-recall": 29.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_keys",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 62.26665543906923,
+        "score-precision": 65.45516983016984,
+        "score-recall": 59.80952380952381
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_leaves",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.23888567897669,
+        "score-precision": 68.55882426751992,
+        "score-recall": 68.3399209486166
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_legs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 81.95842800580911,
+        "score-precision": 83.46919815246665,
+        "score-recall": 80.77142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_long_legs",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 49.49556489262371,
+        "score-precision": 58.50432900432901,
+        "score-recall": 44.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_numbers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.998862038831206,
+        "score-precision": 60.367204359851414,
+        "score-recall": 57.83783783783783
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_patterns",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 55.88841615501887,
+        "score-precision": 55.35469919757172,
+        "score-recall": 56.762242268041234
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_peel",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 57.32558174091355,
+        "score-precision": 62.58080808080808,
+        "score-recall": 53.4090909090909
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_pockets",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.319388602121045,
+        "score-precision": 43.64400584795321,
+        "score-recall": 39.696969696969695
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_scales",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 30.560583207642033,
+        "score-precision": 45.57142857142857,
+        "score-recall": 27.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_seeds",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 70.49723155406245,
+        "score-precision": 72.61485102743684,
+        "score-recall": 69.1304347826087
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_shelves",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.05844155844156,
+        "score-precision": 58.5,
+        "score-recall": 34.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_sleeves",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.9828001375989,
+        "score-precision": 77.19733044733044,
+        "score-recall": 65.66666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_strings",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.29112761670901,
+        "score-precision": 44.05122655122655,
+        "score-recall": 37.61904761904761
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_teeth",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.63817814014061,
+        "score-precision": 71.73306973306974,
+        "score-recall": 69.31451612903226
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_webbed_feet",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.4047619047619,
+        "score-precision": 80.83333333333333,
+        "score-recall": 61.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_wheels",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 70.71535567142485,
+        "score-precision": 77.00134695026335,
+        "score-recall": 66.11111111111111
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_whiskers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 79.20285431154996,
+        "score-precision": 85.82034632034632,
+        "score-recall": 75.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_windows",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.03399209486166,
+        "score-precision": 75.37762237762237,
+        "score-recall": 63.484848484848484
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_wings",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 74.71274415896842,
+        "score-precision": 81.56277056277057,
+        "score-recall": 70.07575757575758
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "hunted_by_people",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 62.786053130929794,
+        "score-precision": 64.06792717086834,
+        "score-recall": 62.42647058823529
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_fires",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 38.66093943298143,
+        "score-precision": 44.48520923520923,
+        "score-recall": 35.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_floats",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 33.66300726882034,
+        "score-precision": 38.07897175350736,
+        "score-recall": 31.071428571428573
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_produces_music",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 62.97588092465948,
+        "score-precision": 66.36023698523698,
+        "score-recall": 62.142857142857146
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_produces_noise",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.52561826895052,
+        "score-precision": 65.22338993933636,
+        "score-recall": 65.9375
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_beautiful",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 51.21395061945022,
+        "score-precision": 52.21446681376879,
+        "score-recall": 50.52026618269812
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_black",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.15854971647831,
+        "score-precision": 47.42221964243673,
+        "score-recall": 47.088607594936704
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_blue",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 32.35697281329729,
+        "score-precision": 34.84084749598277,
+        "score-recall": 30.93333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_breakable",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.93527148981126,
+        "score-precision": 69.20774481759562,
+        "score-recall": 68.73684210526315
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_brown",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 60.993293107712624,
+        "score-precision": 60.440963316059104,
+        "score-recall": 61.76960398636245
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_citrus",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 35.744533244533244,
+        "score-precision": 52.20238095238095,
+        "score-recall": 30.71428571428571
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_cold",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 39.018958201679155,
+        "score-precision": 40.91130550765439,
+        "score-recall": 38.01994301994302
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_colourful",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 61.643783195821825,
+        "score-precision": 61.10538078577575,
+        "score-recall": 62.33009708737865
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_comfortable",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.553620439780005,
+        "score-precision": 48.74999735584756,
+        "score-recall": 46.82323232323232
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_crunchy",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 49.97063829428708,
+        "score-precision": 53.439759286121514,
+        "score-recall": 47.61904761904761
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_cute",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 51.613449380288316,
+        "score-precision": 52.83006120937156,
+        "score-recall": 50.80672268907563
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_dangerous",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 45.34309216335378,
+        "score-precision": 47.381884359134105,
+        "score-recall": 43.8563829787234
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_decorative",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 64.6521037107373,
+        "score-precision": 65.28953505346458,
+        "score-recall": 64.30339217722396
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_dirty",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 31.88670858934288,
+        "score-precision": 33.11861507355905,
+        "score-recall": 31.147435897435894
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_domestic",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 59.22268021100713,
+        "score-precision": 58.50351128315246,
+        "score-recall": 60.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_edible",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 85.92337643740102,
+        "score-precision": 86.9062837889156,
+        "score-recall": 85.06666666666668
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_electrical",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.22743035312116,
+        "score-precision": 70.94407596585162,
+        "score-recall": 66.17864693446089
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_endangered",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.03607503607503,
+        "score-precision": 57.0,
+        "score-recall": 32.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_expensive",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.068507691182774,
+        "score-precision": 42.75977063871801,
+        "score-recall": 39.785133565621365
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_fast",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 44.11973556152425,
+        "score-precision": 45.024395064612555,
+        "score-recall": 43.43529411764706
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_flat",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.090371292249756,
+        "score-precision": 58.66919527695387,
+        "score-recall": 57.94995704467353
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_fun",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 50.923418354679555,
+        "score-precision": 51.9041108504061,
+        "score-recall": 50.51724137931034
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_furry",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.28066038522101,
+        "score-precision": 78.08379120879121,
+        "score-recall": 66.02941176470588
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_gold",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 38.55027660408639,
+        "score-precision": 45.67188367188367,
+        "score-recall": 34.150326797385624
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_green",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.924711469068015,
+        "score-precision": 51.80123401026227,
+        "score-recall": 45.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_grey",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.14219814080052,
+        "score-precision": 47.90648419760516,
+        "score-recall": 48.627450980392155
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_hand_held",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 70.79491712686192,
+        "score-precision": 71.04818162380192,
+        "score-recall": 70.67351732237229
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_hard",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 74.44984493591066,
+        "score-precision": 74.94755629417611,
+        "score-recall": 74.02644580063935
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_heavy",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.49955059745173,
+        "score-precision": 57.07773406142583,
+        "score-recall": 60.164560681751404
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_juicy",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 62.96999666999667,
+        "score-precision": 71.03299478299479,
+        "score-recall": 57.527472527472526
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_knitted",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 49.44677544677545,
+        "score-precision": 54.54761904761905,
+        "score-recall": 46.99999999999999
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_large",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.27109082639604,
+        "score-precision": 54.14670785156576,
+        "score-recall": 54.67404426559356
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_long",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 56.356238887401915,
+        "score-precision": 56.44870054593785,
+        "score-recall": 56.52579478393299
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_loud",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.27566480986743,
+        "score-precision": 53.35353968158846,
+        "score-recall": 51.65505226480836
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_nutritious",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 74.21592497237825,
+        "score-precision": 74.28995566657149,
+        "score-recall": 74.3974358974359
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_orange",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 35.988762686187165,
+        "score-precision": 38.55015896294669,
+        "score-recall": 34.49735449735449
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_pink",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.499029665925335,
+        "score-precision": 50.218970892872896,
+        "score-recall": 47.391304347826086
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_pretty",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 51.905746610738774,
+        "score-precision": 52.181123056460024,
+        "score-recall": 51.86649659863946
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_purple",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 26.726745973549043,
+        "score-precision": 29.243697478991596,
+        "score-recall": 26.111111111111107
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_rectangular",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 70.95958097997087,
+        "score-precision": 69.82936020348983,
+        "score-recall": 72.25806451612904
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_red",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.55549027901954,
+        "score-precision": 44.08494582814002,
+        "score-recall": 40.099573257467995
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_round",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.24002989046994,
+        "score-precision": 65.6007498366535,
+        "score-recall": 64.96000000000001
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_sharp",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 39.2030647968863,
+        "score-precision": 39.61085179746006,
+        "score-recall": 39.498106060606055
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_shiny",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.00402228730222,
+        "score-precision": 46.7974672366134,
+        "score-recall": 49.453015427769984
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_silver",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 37.0067908781783,
+        "score-precision": 38.46800640935301,
+        "score-recall": 36.453061224489794
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_slimy",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 32.75219860978375,
+        "score-precision": 41.77777777777778,
+        "score-recall": 28.888888888888886
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_slow",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 28.652977059564876,
+        "score-precision": 29.040832556994793,
+        "score-recall": 28.871415356151708
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_small",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 71.55571390452023,
+        "score-precision": 71.82948469789322,
+        "score-recall": 71.3864533661488
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_smelly",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 28.302176000723172,
+        "score-precision": 30.953558784794485,
+        "score-recall": 26.967741935483872
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_smooth",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 73.81887801559363,
+        "score-precision": 73.82885526760613,
+        "score-recall": 73.85948526359485
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_soft",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.63910824700899,
+        "score-precision": 64.96250893245369,
+        "score-recall": 66.42857142857143
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_square",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 26.847277932798512,
+        "score-precision": 26.449205195103026,
+        "score-recall": 27.783251231527096
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_strong",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 55.893420998254996,
+        "score-precision": 54.80643221183973,
+        "score-recall": 57.07964601769912
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_tall",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.55545334137018,
+        "score-precision": 47.58421235439491,
+        "score-recall": 40.770114942528735
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_thin",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 62.35488640740099,
+        "score-precision": 62.24862668204706,
+        "score-recall": 62.67596549221962
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_transparent",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 45.74742757438223,
+        "score-precision": 47.83378457291501,
+        "score-recall": 44.315789473684205
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_ugly",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 2.967032967032967,
+        "score-precision": 3.6666666666666665,
+        "score-recall": 2.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_useful",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 85.88039640482599,
+        "score-precision": 86.31124183761565,
+        "score-recall": 85.47101721675061
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_warm",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.50340837020557,
+        "score-precision": 53.33079701829702,
+        "score-recall": 55.843469063987314
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_white",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.13348538893577,
+        "score-precision": 46.616424195864575,
+        "score-recall": 47.87974683544304
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_white_inside",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.5302346776031,
+        "score-precision": 45.192588790692504,
+        "score-recall": 38.68421052631579
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_yellow",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 37.208251274737975,
+        "score-precision": 37.98849742919951,
+        "score-recall": 36.834992887624466
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_Africa",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.90011223012543,
+        "score-precision": 56.16768022998673,
+        "score-recall": 52.72727272727273
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_deserts",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.76978576978577,
+        "score-precision": 52.892857142857146,
+        "score-recall": 35.17857142857143
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_forests",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.88815677561233,
+        "score-precision": 70.48443543795868,
+        "score-recall": 70.73593073593074
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_ground",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.75960355153065,
+        "score-precision": 55.89782135076253,
+        "score-recall": 52.578347578347575
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_jungles",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 33.86480186480186,
+        "score-precision": 41.5,
+        "score-recall": 29.107142857142854
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_oceans",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 67.00456079867845,
+        "score-precision": 72.10606060606061,
+        "score-recall": 64.16666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_trees",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.12497143379496,
+        "score-precision": 53.972222222222214,
+        "score-recall": 38.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_water",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 66.49259563965447,
+        "score-precision": 72.94449994449994,
+        "score-recall": 63.07692307692307
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_wilderness",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.99847888441269,
+        "score-precision": 77.40329714404925,
+        "score-recall": 74.97326203208556
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_zoos",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 73.20349397950596,
+        "score-precision": 77.36080586080587,
+        "score-recall": 70.1098901098901
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_on_farms",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.32213800936438,
+        "score-precision": 58.725544252788836,
+        "score-recall": 49.53846153846153
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_brass",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 38.39974928364238,
+        "score-precision": 44.63923395445134,
+        "score-recall": 35.380116959064324
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_brick",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 6.666666666666666,
+        "score-precision": 10.0,
+        "score-recall": 5.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_ceramic",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 33.74002250472839,
+        "score-precision": 36.34926219291545,
+        "score-recall": 32.095588235294116
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_cotton",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 55.29280216684214,
+        "score-precision": 56.823999832695485,
+        "score-recall": 54.55
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_different_materials",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 91.41587952451597,
+        "score-precision": 91.18903812779213,
+        "score-recall": 91.67309891366494
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_glass",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 46.95841864905953,
+        "score-precision": 50.331403763225005,
+        "score-recall": 44.94565217391305
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_gold",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.04761904761905,
+        "score-precision": 46.666666666666664,
+        "score-recall": 41.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_leather",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 47.49619269619269,
+        "score-precision": 52.451641925326136,
+        "score-recall": 44.94505494505494
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_material",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 92.9524601663124,
+        "score-precision": 92.4377617791653,
+        "score-recall": 93.48275862068965
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_metal",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 78.09200365171128,
+        "score-precision": 77.38754561174294,
+        "score-recall": 78.984375
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_paper",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.913429609981335,
+        "score-precision": 57.69918072123954,
+        "score-recall": 52.857142857142854
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_plastic",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 64.7852049558667,
+        "score-precision": 64.08904368944532,
+        "score-recall": 65.52730696798493
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_porcelain",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.99307555189908,
+        "score-precision": 48.72222222222222,
+        "score-recall": 38.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_rubber",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.6294858056019,
+        "score-precision": 40.452044959397895,
+        "score-recall": 35.661764705882355
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_silk",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 31.046620046620045,
+        "score-precision": 33.33333333333333,
+        "score-recall": 29.76190476190476
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_silver",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.426351426351424,
+        "score-precision": 50.83333333333333,
+        "score-recall": 41.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_steel",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.28689157320126,
+        "score-precision": 67.9834088116346,
+        "score-recall": 68.82022471910112
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_wood",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 63.704536443256266,
+        "score-precision": 63.200648377156824,
+        "score-recall": 64.59088252483927
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_wool",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.78901813401747,
+        "score-precision": 55.75757575757575,
+        "score-recall": 54.86111111111111
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "requires_drivers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 66.37022917953409,
+        "score-precision": 72.30676787952329,
+        "score-recall": 62.63157894736842
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "requires_gasoline",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.74142524142525,
+        "score-precision": 85.97619047619048,
+        "score-recall": 69.82142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_good",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 81.86039368952305,
+        "score-precision": 82.32465071136804,
+        "score-recall": 81.53609831029186
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_sour",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 37.63553113553114,
+        "score-precision": 39.904761904761905,
+        "score-recall": 36.42857142857143
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_sweet",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 69.26098362726057,
+        "score-precision": 71.60108502608503,
+        "score-recall": 67.91666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_blowing_air_through",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 27.176908746568188,
+        "score-precision": 37.01282051282051,
+        "score-recall": 23.88888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_children",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.93271600454874,
+        "score-precision": 57.74085195124936,
+        "score-recall": 60.36478838582677
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_people",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 95.47571387891948,
+        "score-precision": 95.2278600169457,
+        "score-recall": 95.73347443829371
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_riding",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.159707774613224,
+        "score-precision": 51.10842323199302,
+        "score-recall": 47.29166666666667
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_shooting",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.588222227810334,
+        "score-precision": 43.99392274392274,
+        "score-recall": 32.179487179487175
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_sitting_on",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.92695076954796,
+        "score-precision": 57.19038641097465,
+        "score-recall": 54.11764705882352
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_the_military",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 38.23319768888405,
+        "score-precision": 38.532318404269624,
+        "score-recall": 38.39622641509434
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_the_police",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 20.799983012321604,
+        "score-precision": 23.280844155844157,
+        "score-recall": 19.657894736842103
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_throwing",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 19.36520789152368,
+        "score-precision": 26.77777777777778,
+        "score-recall": 15.555555555555554
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_turning",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 40.000660367258334,
+        "score-precision": 39.19967871850574,
+        "score-recall": 41.35593220338983
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cargo",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 30.086413458664094,
+        "score-precision": 36.306277056277054,
+        "score-recall": 27.545454545454543
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_carpentry",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.25252360149385,
+        "score-precision": 46.967171717171716,
+        "score-recall": 39.696969696969695
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_carrying_things",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 51.8887782887281,
+        "score-precision": 52.12392505502088,
+        "score-recall": 52.01075268817205
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cleaning",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 33.937750484809314,
+        "score-precision": 40.401556776556774,
+        "score-recall": 30.833333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_construction",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.68752060299525,
+        "score-precision": 39.61787101787102,
+        "score-recall": 35.71428571428571
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cooking",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 64.6602393436907,
+        "score-precision": 65.41380185452026,
+        "score-recall": 64.2679975801573
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cutting",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 44.27149321266968,
+        "score-precision": 52.71428571428571,
+        "score-recall": 38.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_eating",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 81.6417327571068,
+        "score-precision": 84.19311520422954,
+        "score-recall": 79.79148375768219
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_fishing",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 21.1151511886806,
+        "score-precision": 33.55555555555556,
+        "score-recall": 18.392857142857142
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_food",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 78.92278763767823,
+        "score-precision": 79.70395643416576,
+        "score-recall": 78.37961926091825
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_things",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 50.65226263704659,
+        "score-precision": 50.63621735496595,
+        "score-recall": 50.9499007936508
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_things_together",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.451907090310684,
+        "score-precision": 37.73203463203463,
+        "score-recall": 35.56666666666667
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_water",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 36.784585784585786,
+        "score-precision": 39.41424416656615,
+        "score-recall": 35.54166666666667
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_hunting",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 17.95889894419306,
+        "score-precision": 20.024509803921568,
+        "score-recall": 18.055555555555554
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_juice",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.46702648492929,
+        "score-precision": 57.767843267843276,
+        "score-recall": 40.19230769230769
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_killing",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.83642930856553,
+        "score-precision": 50.31593406593406,
+        "score-recall": 38.18181818181818
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_moving_things",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 46.807452456063615,
+        "score-precision": 49.323762556320695,
+        "score-recall": 45.27777777777778
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_music",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.75526274655209,
+        "score-precision": 62.02201913153925,
+        "score-recall": 50.69852941176471
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_passengers",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 54.6726078519182,
+        "score-precision": 57.55790043290043,
+        "score-recall": 52.857142857142854
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_playing",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 56.58304692802422,
+        "score-precision": 56.49041875426862,
+        "score-recall": 57.21739130434783
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_protection",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 42.13483048063012,
+        "score-precision": 40.47417312439181,
+        "score-recall": 44.154929577464785
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_sleeping",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 23.53328890788845,
+        "score-precision": 30.592352092352094,
+        "score-recall": 20.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_sports",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.13250867499399,
+        "score-precision": 52.124200515045935,
+        "score-recall": 54.51764705882353
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_storage",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 44.76006085891483,
+        "score-precision": 44.43835460797935,
+        "score-recall": 46.05820105820106
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_transportation",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 58.27702542620665,
+        "score-precision": 59.655328298618564,
+        "score-recall": 57.608695652173914
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_war",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 43.79913440151869,
+        "score-precision": 50.33333333333333,
+        "score-recall": 39.61904761904762
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_bands",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 41.13587686758419,
+        "score-precision": 47.722339579924714,
+        "score-recall": 37.63157894736842
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_circuses",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 13.998108015135879,
+        "score-precision": 14.873015873015873,
+        "score-recall": 13.611111111111109
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_orchestras",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 65.72066822066822,
+        "score-precision": 68.23809523809524,
+        "score-recall": 64.66666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_on_water",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 53.93025236641512,
+        "score-precision": 55.1720695429165,
+        "score-recall": 53.086956521739125
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_around_neck",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 20.526077637532744,
+        "score-precision": 28.112554112554115,
+        "score-recall": 18.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_by_men",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 68.88698609945318,
+        "score-precision": 70.97514631343736,
+        "score-recall": 67.23529411764706
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_by_women",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 66.77069947912909,
+        "score-precision": 66.73271298289981,
+        "score-recall": 67.5189393939394
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_covering_body",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 82.2130209427206,
+        "score-precision": 85.51533270650917,
+        "score-recall": 79.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_protection",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 48.07208709485749,
+        "score-precision": 51.56974969474969,
+        "score-recall": 45.55555555555556
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_warmth",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 52.617970265029086,
+        "score-precision": 60.230158730158735,
+        "score-recall": 47.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_in_winter",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 56.75816993464052,
+        "score-precision": 63.64033189033189,
+        "score-recall": 52.44444444444444
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_on_feet",
+        "level": "concept",
+        "model": "dino-v2",
+        "split": "repeated-k-fold",
+        "score-f1": 75.53379953379952,
+        "score-precision": 91.23809523809524,
+        "score-recall": 66.66666666666666
+    }
+]

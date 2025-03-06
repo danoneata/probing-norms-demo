@@ -14,6 +14,7 @@ from probing_norms.get_results import (
     NORMS_LOADERS,
     OUTPUT_PATH,
     load_taxonomy_mcrae,
+    load_taxonomy_mcrae_x_things,
     load_taxonomy_binder,
 )
 from probing_norms.extract_features_text import HFModelContextual
@@ -27,6 +28,7 @@ DATASET_NAME = "things"
 
 
 LOAD_TAXONOMY = {
+    "McRae×THINGS": load_taxonomy_mcrae_x_things,
     "McRae++": load_taxonomy_mcrae,
     "Binder": load_taxonomy_binder,
 }
@@ -52,11 +54,7 @@ def load_data(model1, model2, norms_type):
     taxonomy = LOAD_TAXONOMY[NORMS_NAMES[norms_type]]()
     scores_random = load_score_random_features(norms_type)
 
-    results = [
-        r
-        for m in [model1, model2]
-        for r in load_result_features(m)
-    ]
+    results = [r for m in [model1, model2] for r in load_result_features(m)]
 
     for r in results:
         r["score-f1-selectivity"] = r["score-f1"] - scores_random[r["feature"]]
@@ -140,7 +138,9 @@ class SortByDifference(Sorter):
         )
 
 
-def show_results(norms_type, norms_loader, models, feature, filter, sorter, num_to_show):
+def show_results(
+    norms_type, norms_loader, models, feature, filter, sorter, num_to_show
+):
     image_names = dict(
         read_file(
             "static/things-image-names.txt",
@@ -189,13 +189,17 @@ def show_results(norms_type, norms_loader, models, feature, filter, sorter, num_
     def show1(row):
         concept = row["concept"]
         is_positive_str = "✓" if row["is-positive"] else "✗"
-        ss = [
-            "concept: {}".format(concept, is_positive_str),
-            "positive: {}".format(is_positive_str),
-        ] + ([get_rating_str(concept)] if norms_type == "binder-median" else []) + [
-            "score {}: {:.2f}".format(FEATURE_NAMES[model], row[model])
-            for model in models
-        ]
+        ss = (
+            [
+                "concept: {}".format(concept, is_positive_str),
+                "positive: {}".format(is_positive_str),
+            ]
+            + ([get_rating_str(concept)] if norms_type == "binder-median" else [])
+            + [
+                "score {}: {:.2f}".format(FEATURE_NAMES[model], row[model])
+                for model in models
+            ]
+        )
         s = "\n".join(["```", "\n".join(ss), "\n```"])
         st.markdown(s)
         st.image(get_path_image(concept), caption=contexts[concept][0], width=128)
@@ -208,20 +212,28 @@ def show_results(norms_type, norms_loader, models, feature, filter, sorter, num_
                 show1(row)
 
 
+def selectboxq(col, name, options, default=None, *args, **kwargs):
+    if name in st.query_params:
+        default = st.query_params[name]
+    if default is not None:
+        index = options.index(default)
+    else:
+        index = 0
+    selected = col.selectbox(name, options, index=index, *args, **kwargs)
+    # st.query_params[name] = selected
+    return selected
+
+
 if __name__ == "__main__":
-    norms_types = ["mcrae-mapped", "binder-median"]
+    norms_types = ["mcrae-x-things", "mcrae-mapped", "binder-median"]
 
     model_names = [FEATURE_NAMES[m] for m in MAIN_TABLE_MODELS]
     norm_types_names = [NORMS_NAMES[n] for n in norms_types]
 
     with st.sidebar:
-        index1 = MAIN_TABLE_MODELS.index(
-            "gemma-2b-contextual-layers-9-to-18-seq-last-word"
-        )
-        index2 = MAIN_TABLE_MODELS.index("dino-v2")
-        model1_name = st.selectbox("Model 1", model_names, index=index1)
-        model2_name = st.selectbox("Model 2", model_names, index=index2)
-        norms_type_name = st.selectbox("Dataset", norm_types_names, index=0)
+        model1_name = selectboxq(st, "Model 1", model_names, "Gemma")
+        model2_name = selectboxq(st, "Model 2", model_names, "DINOv2")
+        norms_type_name = selectboxq(st, "Dataset", norm_types_names, "McRae++")
 
     if model1_name == model2_name:
         st.error("Please select two different models.")
@@ -274,9 +286,9 @@ if __name__ == "__main__":
     sorters_str = [str(s) for s in sorters]
 
     cols = st.columns(4)
-    feature = cols[0].selectbox("Feature", features_selected)
-    filter_by = cols[1].selectbox("Filter by", filters_str)
-    sort_by = cols[2].selectbox("Sort by", sorters_str, index=1)
+    feature = selectboxq(cols[0], "Feature", features_selected)
+    filter_by = selectboxq(cols[1], "Filter by", filters_str)
+    sort_by = selectboxq(cols[2], "Sort by", sorters_str, default=sorters_str[1])
     num_to_show = cols[3].number_input(
         "Number of samples to show",
         min_value=4,
@@ -284,6 +296,13 @@ if __name__ == "__main__":
         value=12,
         step=4,
     )
+
+    # def encode(s):
+    #     return s.replace(" ", "%20")
+
+    # query_string = "&".join(f"{}={}".format(encode(key), encode(value)) for key, value in st.query_params.items())
+    # shareable_url = f"{st.get_url()}?{query_string}"
+    # st.markdown(f"Shareable URL: [link]({shareable_url})")
 
     filter = filters[filters_str.index(filter_by)]
     sorter = sorters[sorters_str.index(sort_by)]

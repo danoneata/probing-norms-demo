@@ -1,0 +1,2772 @@
+[
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_bird",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.23853923853923,
+        "score-precision": 87.38095238095238,
+        "score-recall": 57.857142857142854
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_building",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.85434173669468,
+        "score-precision": 53.08333333333333,
+        "score-recall": 40.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_carnivore",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 84.57036297036296,
+        "score-precision": 88.72788614893878,
+        "score-recall": 82.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_cat",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.166666666666664,
+        "score-precision": 75.0,
+        "score-recall": 31.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_container",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.16953244564374,
+        "score-precision": 69.39744821020236,
+        "score-recall": 62.057329462989834
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_fish",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 46.025564570186994,
+        "score-precision": 60.930735930735935,
+        "score-recall": 39.166666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_food",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 89.31717007968406,
+        "score-precision": 90.79000389928831,
+        "score-recall": 88.0673824509441
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_fruit",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 73.10330924083296,
+        "score-precision": 79.44337280366692,
+        "score-recall": 69.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_gun",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 26.666666666666664,
+        "score-precision": 38.33333333333333,
+        "score-recall": 21.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_herbivore",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.61697465175726,
+        "score-precision": 72.26678876678878,
+        "score-recall": 62.56410256410256
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_house",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 36.00680044593088,
+        "score-precision": 46.14063714063714,
+        "score-recall": 30.439560439560438
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_mammal",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 95.68607068607068,
+        "score-precision": 97.3562091503268,
+        "score-recall": 94.21052631578947
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_musical_instrument",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 78.70695970695971,
+        "score-precision": 92.4047619047619,
+        "score-recall": 69.64285714285714
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_pet",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.84099955771782,
+        "score-precision": 75.51190476190476,
+        "score-recall": 61.11111111111111
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_predator",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 70.89488112282567,
+        "score-precision": 81.12590187590187,
+        "score-recall": 65.45454545454545
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_rodent",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 31.333333333333332,
+        "score-precision": 45.0,
+        "score-recall": 25.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_scavenger",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 41.436406730524375,
+        "score-precision": 54.36507936507936,
+        "score-recall": 35.55555555555556
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_tool",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.52836557542432,
+        "score-precision": 76.61071240075528,
+        "score-recall": 74.59814853776562
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_toy",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 54.05200590309043,
+        "score-precision": 61.29749417249417,
+        "score-recall": 48.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_tree",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.84415487772945,
+        "score-precision": 65.09960079736956,
+        "score-recall": 56.46666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_utensil",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.395036420128214,
+        "score-precision": 61.974387841260906,
+        "score-recall": 53.78787878787879
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_vegetable",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.28366811902279,
+        "score-precision": 72.15553978334972,
+        "score-recall": 62.38095238095239
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_vehicle",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.65401648160268,
+        "score-precision": 81.4024429321744,
+        "score-recall": 73.26354679802957
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "a_weapon",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.50154798761609,
+        "score-precision": 83.21428571428571,
+        "score-recall": 57.27272727272727
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_animal",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 93.51015895207128,
+        "score-precision": 95.42686963739595,
+        "score-recall": 91.82076813655762
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_appliance",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 55.975556225713056,
+        "score-precision": 61.47774255683295,
+        "score-recall": 52.01149425287356
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "an_insect",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 84.84126984126983,
+        "score-precision": 96.0,
+        "score-recall": 78.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_builds_nests",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.836026718379664,
+        "score-precision": 76.07683982683983,
+        "score-recall": 55.333333333333336
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_cannot_fly",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 82.86773049089815,
+        "score-precision": 81.97351368982889,
+        "score-recall": 83.96952104499275
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_chirps",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 55.82539682539682,
+        "score-precision": 77.5,
+        "score-recall": 47.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_crawls",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.13215063803299,
+        "score-precision": 68.82478632478633,
+        "score-recall": 51.43939393939394
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 91.48293336281644,
+        "score-precision": 94.86851234034651,
+        "score-recall": 88.60998650472335
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_fish",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.38859456826209,
+        "score-precision": 70.43956043956044,
+        "score-recall": 55.222222222222214
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_garbage",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 34.43867243867244,
+        "score-precision": 46.69047619047619,
+        "score-recall": 31.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_grass",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.71847375340442,
+        "score-precision": 78.25,
+        "score-recall": 58.44444444444444
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_eats_insects",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 56.19930508088403,
+        "score-precision": 65.06204906204906,
+        "score-recall": 51.515151515151516
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_flies",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 81.69641469641469,
+        "score-precision": 90.14285714285714,
+        "score-recall": 76.07142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_hunts",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.16705273149404,
+        "score-precision": 74.88023088023087,
+        "score-recall": 77.52380952380952
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_jumps",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.81985840246709,
+        "score-precision": 79.71564546564547,
+        "score-recall": 57.11538461538462
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_lays_eggs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 80.85387524915923,
+        "score-precision": 85.73529411764706,
+        "score-recall": 77.05882352941175
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_migrates",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.83906289788642,
+        "score-precision": 74.10317460317461,
+        "score-recall": 48.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_runs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 81.36447975505205,
+        "score-precision": 84.42945453613108,
+        "score-recall": 79.28571428571429
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_sings",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 26.0,
+        "score-precision": 36.666666666666664,
+        "score-recall": 23.333333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_swims",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.03424336241673,
+        "score-precision": 84.63999888999889,
+        "score-recall": 69.0909090909091
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "beh_-_travels_in_herds",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.71981776393541,
+        "score-precision": 74.61111111111111,
+        "score-recall": 58.92857142857143
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "bought/sold_in_stores",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 92.00338201279587,
+        "score-precision": 92.0514951185444,
+        "score-recall": 91.97231833910034
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "clothing",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.34109091396672,
+        "score-precision": 79.37357683655324,
+        "score-recall": 72.57575757575758
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "comes_in_pairs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 49.98370101453425,
+        "score-precision": 55.858728101291035,
+        "score-recall": 45.96866096866097
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "different_colours",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 80.866143759343,
+        "score-precision": 81.13105622332122,
+        "score-recall": 80.64150943396227
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "different_sizes",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 97.86582805738263,
+        "score-precision": 97.05990869180998,
+        "score-recall": 98.68636840210945
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_as_meat",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.36978376130007,
+        "score-precision": 76.0747520976354,
+        "score-recall": 68.00395256916997
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_by_baking",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 56.87362049204154,
+        "score-precision": 63.098625775096366,
+        "score-recall": 52.47619047619047
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_by_cooking",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.39418824902695,
+        "score-precision": 71.93325496342737,
+        "score-recall": 65.56818181818183
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_pies",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.22065927820404,
+        "score-precision": 57.8968253968254,
+        "score-recall": 37.18181818181818
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_salads",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.77513893566663,
+        "score-precision": 77.67275441737684,
+        "score-recall": 74.58333333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_soups",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.31417549710233,
+        "score-precision": 72.56663271369153,
+        "score-recall": 60.18115942028985
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "eaten_in_summer",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.99649670099795,
+        "score-precision": 66.49381697376201,
+        "score-recall": 60.75604838709677
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_bathrooms",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 54.00526816247964,
+        "score-precision": 59.79718907190445,
+        "score-recall": 49.96638655462185
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_bedrooms",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.15744759732033,
+        "score-precision": 65.90372383443695,
+        "score-recall": 62.70085153646797
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_houses",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 88.13103176412565,
+        "score-precision": 87.75089176325082,
+        "score-recall": 88.58986035215544
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_in_kitchens",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 82.71191749754617,
+        "score-precision": 83.199290904444,
+        "score-recall": 82.3269595448799
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "found_on_walls",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.17582343734745,
+        "score-precision": 53.193013359189834,
+        "score-recall": 38.86363636363636
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "furniture",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.72426462426463,
+        "score-precision": 75.23029748029748,
+        "score-recall": 53.458333333333336
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_forests",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 53.05253792480454,
+        "score-precision": 60.53091200688455,
+        "score-recall": 49.248366013071895
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_gardens",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 86.41958937590888,
+        "score-precision": 88.21838878131784,
+        "score-recall": 85.34420289855072
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_in_the_ground",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.92203151762776,
+        "score-precision": 83.92614536493255,
+        "score-recall": 77.95289855072464
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "grows_on_trees",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.52895635595864,
+        "score-precision": 71.490675990676,
+        "score-recall": 53.57142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_2_wheels",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 28.595238095238095,
+        "score-precision": 45.83333333333333,
+        "score-recall": 22.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_4_legs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 82.58554546020869,
+        "score-precision": 88.76011405324905,
+        "score-recall": 77.51666666666667
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_4_wheels",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.15669074647403,
+        "score-precision": 85.30952380952381,
+        "score-recall": 65.13888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_beak",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.03130203130203,
+        "score-precision": 89.88095238095238,
+        "score-recall": 66.96428571428571
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_blade",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.44237802427458,
+        "score-precision": 74.61701044053986,
+        "score-recall": 51.0233918128655
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_door",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.60712118541896,
+        "score-precision": 70.61548174048173,
+        "score-recall": 56.95906432748537
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_handle",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.429145483299024,
+        "score-precision": 64.70813990309959,
+        "score-recall": 60.57808857808858
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_head",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.98827367408286,
+        "score-precision": 70.29257026206001,
+        "score-recall": 67.97894736842105
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_lid",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.4024892412451,
+        "score-precision": 62.692175072044435,
+        "score-recall": 53.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_long_neck",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 29.410041301036053,
+        "score-precision": 40.82683982683982,
+        "score-recall": 24.294871794871796
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_long_tail",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.6286881898591,
+        "score-precision": 69.5528638887772,
+        "score-recall": 56.47058823529412
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_neck",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.51025019409589,
+        "score-precision": 69.83149526714104,
+        "score-recall": 65.43478260869566
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_pit",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 23.71428571428571,
+        "score-precision": 50.0,
+        "score-recall": 16.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_pointed_end",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.6456681362206,
+        "score-precision": 46.31274498152323,
+        "score-recall": 43.61702127659574
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_roof",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 56.41301289343445,
+        "score-precision": 68.60149572649573,
+        "score-recall": 52.142857142857146
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_seat",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.37838488856144,
+        "score-precision": 82.41996119822207,
+        "score-recall": 76.81666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_shell",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.93368140715773,
+        "score-precision": 49.01992920339695,
+        "score-recall": 40.22048364153627
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_skin",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 77.33522218395657,
+        "score-precision": 77.82996466035056,
+        "score-recall": 77.10876369327073
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_tail",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.23065952307668,
+        "score-precision": 85.50705122561352,
+        "score-recall": 74.24242424242425
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_trigger",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 39.01809671236916,
+        "score-precision": 55.83333333333333,
+        "score-recall": 30.909090909090914
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_wooden_handle",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.8578100024093,
+        "score-precision": 59.78024606971976,
+        "score-recall": 47.22943722943723
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_a_zipper",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 39.42851592851593,
+        "score-precision": 51.333333333333336,
+        "score-recall": 35.476190476190474
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_an_engine",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 72.72040484543265,
+        "score-precision": 81.40316627816628,
+        "score-recall": 66.66666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_an_inside",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 82.99349021042653,
+        "score-precision": 82.84524275031863,
+        "score-recall": 83.26446280991736
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_blades",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 55.400276337458,
+        "score-precision": 64.14159451659451,
+        "score-recall": 50.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_buttons",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.8633343589942,
+        "score-precision": 64.84354818457886,
+        "score-recall": 58.042016806722685
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_claws",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 78.6259761797821,
+        "score-precision": 84.02152160704792,
+        "score-recall": 74.70760233918128
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_doors",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.43793060645119,
+        "score-precision": 70.53791388350211,
+        "score-recall": 55.916666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_drawers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 56.095238095238095,
+        "score-precision": 86.66666666666666,
+        "score-recall": 44.99999999999999
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_ears",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 84.07398205659075,
+        "score-precision": 85.88024097664035,
+        "score-recall": 83.1
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_eyes",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 90.45352117338419,
+        "score-precision": 92.02404003574433,
+        "score-recall": 89.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_feathers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.13369963369964,
+        "score-precision": 89.07142857142857,
+        "score-recall": 66.25
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_feet",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.85080512110574,
+        "score-precision": 74.45351157623195,
+        "score-recall": 69.77891156462586
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_fins",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 50.42823842823843,
+        "score-precision": 78.83333333333334,
+        "score-recall": 40.238095238095234
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_fur",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.55892315569736,
+        "score-precision": 83.4824453750285,
+        "score-recall": 72.3391812865497
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_gills",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.6010101010101,
+        "score-precision": 79.33333333333333,
+        "score-recall": 61.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_hair",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.87712920410937,
+        "score-precision": 71.10595735309694,
+        "score-recall": 59.843304843304836
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_handles",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.786862855615254,
+        "score-precision": 65.06666395843905,
+        "score-recall": 57.32142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_holes",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.80072775892295,
+        "score-precision": 41.60352717826814,
+        "score-recall": 40.128205128205124
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_hooves",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.82034632034632,
+        "score-precision": 83.83333333333333,
+        "score-recall": 58.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_horns",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 27.534798534798533,
+        "score-precision": 50.71428571428571,
+        "score-recall": 21.333333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_keys",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 52.83112315526108,
+        "score-precision": 62.306693306693305,
+        "score-recall": 48.04761904761905
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_leaves",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.26258722315345,
+        "score-precision": 71.8037568928133,
+        "score-recall": 62.19367588932806
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_legs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 80.19296988073238,
+        "score-precision": 82.97433920592098,
+        "score-recall": 77.9469387755102
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_long_legs",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.41250416250416,
+        "score-precision": 59.61904761904761,
+        "score-recall": 31.333333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_numbers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.19159646657221,
+        "score-precision": 62.463566005411835,
+        "score-recall": 58.91891891891892
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_patterns",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.57586036476899,
+        "score-precision": 59.56422728099282,
+        "score-recall": 57.79961340206186
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_peel",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.93954196817974,
+        "score-precision": 70.3452380952381,
+        "score-recall": 51.515151515151516
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_pockets",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.61668878077547,
+        "score-precision": 52.15873015873016,
+        "score-recall": 38.86363636363636
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_scales",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 31.746031746031747,
+        "score-precision": 49.476190476190474,
+        "score-recall": 24.821428571428573
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_seeds",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 78.12467027923452,
+        "score-precision": 82.98417014403014,
+        "score-recall": 74.58498023715416
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_shelves",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 39.801587301587304,
+        "score-precision": 61.666666666666664,
+        "score-recall": 30.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_sleeves",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.42363261093911,
+        "score-precision": 80.22619047619047,
+        "score-recall": 70.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_strings",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 31.872466737237733,
+        "score-precision": 34.720353588619844,
+        "score-recall": 30.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_teeth",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 72.29171791601743,
+        "score-precision": 77.63891906348803,
+        "score-recall": 68.67943548387096
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_webbed_feet",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 53.0,
+        "score-precision": 70.0,
+        "score-recall": 46.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_wheels",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.01084143401587,
+        "score-precision": 80.47316374715756,
+        "score-recall": 62.222222222222214
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_whiskers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.46889087923572,
+        "score-precision": 84.17045454545455,
+        "score-recall": 69.48717948717949
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_windows",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.56818181818183,
+        "score-precision": 75.83119658119658,
+        "score-recall": 57.65151515151515
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "has_wings",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.75719491966632,
+        "score-precision": 85.14646464646464,
+        "score-recall": 68.71212121212122
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "hunted_by_people",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 70.38035574506654,
+        "score-precision": 78.37874625374624,
+        "score-recall": 65.51470588235294
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_fires",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.43785005993243,
+        "score-precision": 76.2989787989788,
+        "score-recall": 50.83333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_floats",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.090197592156684,
+        "score-precision": 55.820994999196685,
+        "score-recall": 47.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_produces_music",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.65481941568899,
+        "score-precision": 87.13486513486512,
+        "score-recall": 69.28571428571429
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "inbeh_-_produces_noise",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.2025507919493,
+        "score-precision": 73.01556318677123,
+        "score-recall": 69.6875
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_beautiful",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.02407162949679,
+        "score-precision": 65.56056948881594,
+        "score-recall": 62.940108892921955
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_black",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 48.404817600520246,
+        "score-precision": 49.38333259193876,
+        "score-recall": 47.721518987341774
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_blue",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.276441313913736,
+        "score-precision": 49.02318436953325,
+        "score-recall": 41.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_breakable",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 73.11085823234325,
+        "score-precision": 73.6234666011953,
+        "score-recall": 72.63157894736841
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_brown",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.56098328731865,
+        "score-precision": 64.08954973254366,
+        "score-recall": 63.14975085234723
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_citrus",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 49.85347985347985,
+        "score-precision": 70.38095238095238,
+        "score-recall": 40.95238095238095
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_cold",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 50.5397988679174,
+        "score-precision": 55.36704038090844,
+        "score-recall": 47.02279202279202
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_colourful",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.66939519239097,
+        "score-precision": 66.30164530038768,
+        "score-recall": 63.39805825242719
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_comfortable",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.701788095374226,
+        "score-precision": 63.897997483233894,
+        "score-recall": 58.15656565656566
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_crunchy",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 55.83374322848007,
+        "score-precision": 62.15197921273773,
+        "score-recall": 50.95238095238095
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_cute",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.584559285101456,
+        "score-precision": 61.570265795563145,
+        "score-recall": 56.33613445378152
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_dangerous",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.65041210735994,
+        "score-precision": 68.9792023510604,
+        "score-recall": 59.326241134751776
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_decorative",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.50417301236482,
+        "score-precision": 70.14570965862936,
+        "score-recall": 69.05676704742125
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_dirty",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 45.40699405242957,
+        "score-precision": 52.01986396580389,
+        "score-recall": 40.78846153846153
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_domestic",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.79679531420848,
+        "score-precision": 73.33797159870964,
+        "score-recall": 70.56
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_edible",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 89.61706770138721,
+        "score-precision": 91.3183082255892,
+        "score-recall": 88.13333333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_electrical",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.38816462289292,
+        "score-precision": 79.52475705829364,
+        "score-recall": 72.22515856236787
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_endangered",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.338383838383834,
+        "score-precision": 80.66666666666666,
+        "score-recall": 40.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_expensive",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.3721938419409,
+        "score-precision": 68.20106211947493,
+        "score-recall": 56.53310104529616
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_fast",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.90797300064533,
+        "score-precision": 53.391594054547326,
+        "score-recall": 50.61960784313725
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_flat",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.29772700763367,
+        "score-precision": 59.167228953438794,
+        "score-recall": 57.63745704467353
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_fun",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 70.94245563118477,
+        "score-precision": 72.69460901185457,
+        "score-recall": 69.82758620689656
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_furry",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 70.6276749298162,
+        "score-precision": 80.05945769916357,
+        "score-recall": 64.15441176470588
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_gold",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.57877373620711,
+        "score-precision": 54.90986790986791,
+        "score-recall": 34.248366013071895
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_green",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 53.902622987880434,
+        "score-precision": 56.180227653117264,
+        "score-recall": 52.25
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_grey",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 54.20863294372121,
+        "score-precision": 54.50160846589159,
+        "score-recall": 54.01960784313726
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_hand_held",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.24743685341568,
+        "score-precision": 77.19200792457792,
+        "score-recall": 75.42219612448619
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_hard",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.60782615379227,
+        "score-precision": 80.202071147497,
+        "score-recall": 79.1476315024702
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_heavy",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.1064373447847,
+        "score-precision": 66.4074385946554,
+        "score-recall": 62.47281810167499
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_juicy",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 72.55954544650197,
+        "score-precision": 82.46825396825396,
+        "score-recall": 65.87912087912088
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_knitted",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.464646464646464,
+        "score-precision": 74.14285714285714,
+        "score-recall": 55.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_large",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.9670938445581,
+        "score-precision": 59.942254572685115,
+        "score-recall": 60.30784708249497
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_long",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.947454856236746,
+        "score-precision": 60.3161602634165,
+        "score-recall": 59.72587093089663
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_loud",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.92498741122456,
+        "score-precision": 66.91056230229285,
+        "score-recall": 61.45180023228804
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_nutritious",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 80.26641213804545,
+        "score-precision": 81.12116624622318,
+        "score-recall": 79.92948717948718
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_orange",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 35.1937602799825,
+        "score-precision": 39.28101608536391,
+        "score-recall": 32.195767195767196
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_pink",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 49.15000629494567,
+        "score-precision": 53.90679875746126,
+        "score-recall": 45.869565217391305
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_pretty",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.04128023492592,
+        "score-precision": 61.51415365469968,
+        "score-recall": 61.177721088435376
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_purple",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.190314913844325,
+        "score-precision": 49.476190476190474,
+        "score-recall": 34.73684210526316
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_rectangular",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.97724423151757,
+        "score-precision": 69.56341425894273,
+        "score-recall": 68.49462365591398
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_red",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 47.045595003658676,
+        "score-precision": 49.77424949552797,
+        "score-recall": 45.37695590327169
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_round",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.54753326451949,
+        "score-precision": 61.75037220065631,
+        "score-recall": 61.52
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_sharp",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 49.716390933719374,
+        "score-precision": 54.24984869951872,
+        "score-recall": 46.33522727272727
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_shiny",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 53.210274355206955,
+        "score-precision": 54.20533100668863,
+        "score-recall": 52.59116409537167
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_silver",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 34.801102490762034,
+        "score-precision": 36.84355209127246,
+        "score-recall": 33.39591836734694
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_slimy",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 48.84975920192638,
+        "score-precision": 66.23015873015872,
+        "score-recall": 42.22222222222222
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_slow",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.76138107298066,
+        "score-precision": 45.771116994211994,
+        "score-recall": 42.456059204440336
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_small",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 75.06468595803837,
+        "score-precision": 75.04061703404598,
+        "score-recall": 75.17766497461929
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_smelly",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 35.0017140964241,
+        "score-precision": 37.98161513605447,
+        "score-recall": 32.89247311827957
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_smooth",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.57026724110884,
+        "score-precision": 74.60310596292712,
+        "score-recall": 74.59153175591533
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_soft",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 71.5293217024008,
+        "score-precision": 71.36141422808592,
+        "score-recall": 71.875
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_square",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 28.81817427825831,
+        "score-precision": 32.098757579976535,
+        "score-recall": 27.118226600985224
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_strong",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.31977564032647,
+        "score-precision": 67.36362529361745,
+        "score-recall": 65.57522123893804
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_tall",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.998574856856756,
+        "score-precision": 49.120648746691415,
+        "score-recall": 40.804597701149426
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_thin",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.14830045596015,
+        "score-precision": 67.42625230500835,
+        "score-recall": 68.95106022736435
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_transparent",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.85482430261321,
+        "score-precision": 56.38528138528138,
+        "score-recall": 49.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_ugly",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 28.417832167832167,
+        "score-precision": 41.08333333333333,
+        "score-recall": 22.5
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_useful",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 91.00292765047821,
+        "score-precision": 90.587999522429,
+        "score-recall": 91.45866225597072
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_warm",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.42014715519906,
+        "score-precision": 66.41990680287054,
+        "score-recall": 61.07086197778953
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_white",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.06397100821019,
+        "score-precision": 44.45808567487659,
+        "score-recall": 43.875
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_white_inside",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 41.51633073596959,
+        "score-precision": 43.769010432701876,
+        "score-recall": 40.26315789473684
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "is_yellow",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 37.82748646883993,
+        "score-precision": 41.74933413536355,
+        "score-recall": 34.97155049786629
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_Africa",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.64684333547169,
+        "score-precision": 69.32253891619216,
+        "score-recall": 63.18181818181817
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_deserts",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 45.857142857142854,
+        "score-precision": 65.0,
+        "score-recall": 36.607142857142854
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_forests",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.91375044806696,
+        "score-precision": 79.13915827408559,
+        "score-recall": 71.81818181818181
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_ground",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.12538051955018,
+        "score-precision": 68.31454451345755,
+        "score-recall": 57.4928774928775
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_jungles",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.42771607477489,
+        "score-precision": 57.666666666666664,
+        "score-recall": 37.14285714285714
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_oceans",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.85857932916755,
+        "score-precision": 84.84920634920636,
+        "score-recall": 72.77777777777779
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_trees",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.34632034632035,
+        "score-precision": 64.28571428571429,
+        "score-recall": 35.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_water",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.04631358979185,
+        "score-precision": 81.42451992451993,
+        "score-recall": 69.23076923076923
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_wilderness",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.10297808931895,
+        "score-precision": 81.89229231883608,
+        "score-recall": 76.80035650623886
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_in_zoos",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.80689655172414,
+        "score-precision": 75.58166833166834,
+        "score-recall": 62.527472527472526
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "lives_on_farms",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.21965593372242,
+        "score-precision": 67.51792622582096,
+        "score-recall": 56.90769230769231
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_brass",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 48.28294460402719,
+        "score-precision": 61.27422577422577,
+        "score-recall": 41.578947368421055
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_brick",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 36.666666666666664,
+        "score-precision": 50.0,
+        "score-recall": 30.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_ceramic",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 52.00244010099404,
+        "score-precision": 63.3034188034188,
+        "score-recall": 44.48529411764706
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_cotton",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.99365660843128,
+        "score-precision": 70.95172219085262,
+        "score-recall": 65.43333333333332
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_different_materials",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 92.72718814550737,
+        "score-precision": 92.34380153150963,
+        "score-recall": 93.14808461978274
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_glass",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.96836240547613,
+        "score-precision": 58.478456662465284,
+        "score-recall": 47.01086956521739
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_gold",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 16.666666666666664,
+        "score-precision": 20.0,
+        "score-recall": 15.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_leather",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 35.52421811598013,
+        "score-precision": 44.501443001443,
+        "score-recall": 30.439560439560438
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_material",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 93.73794074149365,
+        "score-precision": 93.7808494447221,
+        "score-recall": 93.72413793103449
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_metal",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 78.83146583232578,
+        "score-precision": 79.18540352032771,
+        "score-recall": 78.515625
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_paper",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.87107095802749,
+        "score-precision": 72.76456876456876,
+        "score-recall": 54.28571428571429
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_plastic",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.2888596832324,
+        "score-precision": 67.89255777712366,
+        "score-recall": 68.85701868752716
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_porcelain",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 41.35897435897436,
+        "score-precision": 54.21428571428571,
+        "score-recall": 33.75
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_rubber",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 42.93550202399478,
+        "score-precision": 52.46527981822099,
+        "score-recall": 38.01470588235294
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_silk",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.29020979020979,
+        "score-precision": 66.88095238095238,
+        "score-recall": 35.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_silver",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.65601065601065,
+        "score-precision": 81.04761904761905,
+        "score-recall": 50.33333333333333
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_steel",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.54188106569538,
+        "score-precision": 70.05726488665915,
+        "score-recall": 69.15858018386108
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_wood",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.12714754866143,
+        "score-precision": 68.34422402224627,
+        "score-recall": 62.53945061367621
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "made_of_wool",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 54.608058522145214,
+        "score-precision": 67.22763347763347,
+        "score-recall": 51.38888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "requires_drivers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 55.682301642420725,
+        "score-precision": 69.09217171717172,
+        "score-recall": 48.421052631578945
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "requires_gasoline",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.92441330599225,
+        "score-precision": 71.05555555555556,
+        "score-recall": 54.28571428571429
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_good",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 88.332749724052,
+        "score-precision": 90.04847369012282,
+        "score-recall": 86.78955453149001
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_sour",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.73232323232323,
+        "score-precision": 64.33333333333333,
+        "score-recall": 34.52380952380952
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "tastes_sweet",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 79.38062215424907,
+        "score-precision": 84.11180124223603,
+        "score-recall": 75.41666666666666
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_blowing_air_through",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 50.01665929529706,
+        "score-precision": 72.58585858585857,
+        "score-recall": 41.88888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_children",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 73.45872372775737,
+        "score-precision": 74.26431178318002,
+        "score-recall": 72.75652066929135
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_people",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 96.71491001335264,
+        "score-precision": 96.11347086860425,
+        "score-recall": 97.32588009696443
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_riding",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 56.10998484274346,
+        "score-precision": 63.378205128205124,
+        "score-recall": 50.625
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_shooting",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 53.63984770109416,
+        "score-precision": 74.93253968253968,
+        "score-recall": 42.69230769230769
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_sitting_on",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 57.83091843269818,
+        "score-precision": 66.51589586883705,
+        "score-recall": 51.76470588235294
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_the_military",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 54.74804074418025,
+        "score-precision": 55.274430792410215,
+        "score-recall": 54.55370101596517
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_the_police",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.34592450033627,
+        "score-precision": 46.1004675149412,
+        "score-recall": 36.44736842105263
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_throwing",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 26.51530487056803,
+        "score-precision": 49.11904761904761,
+        "score-recall": 20.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_by_turning",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 51.98349874478065,
+        "score-precision": 55.00591969266926,
+        "score-recall": 49.49152542372882
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cargo",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 40.574534942182005,
+        "score-precision": 59.67857142857142,
+        "score-recall": 31.727272727272727
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_carpentry",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 47.98097254295935,
+        "score-precision": 58.45959595959596,
+        "score-recall": 42.04545454545455
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_carrying_things",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.470213012962994,
+        "score-precision": 67.45281892021022,
+        "score-recall": 58.55913978494624
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cleaning",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.21115833060912,
+        "score-precision": 70.72816072816073,
+        "score-recall": 51.666666666666664
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_construction",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.370317904589626,
+        "score-precision": 64.99703693279545,
+        "score-recall": 53.80952380952381
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cooking",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 76.6467469263817,
+        "score-precision": 80.32801364058778,
+        "score-recall": 73.49062310949788
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_cutting",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 68.32314091137621,
+        "score-precision": 84.22222222222221,
+        "score-recall": 59.722222222222214
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_eating",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 88.55782239650141,
+        "score-precision": 90.79209779078523,
+        "score-recall": 86.87006145741879
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_fishing",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 30.372960372960375,
+        "score-precision": 50.0,
+        "score-recall": 22.678571428571427
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_food",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 86.12286801238659,
+        "score-precision": 87.79260841430008,
+        "score-recall": 84.6394176931691
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_things",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.40243292648668,
+        "score-precision": 71.5606374895957,
+        "score-recall": 63.92113095238095
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_things_together",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 45.00992771082439,
+        "score-precision": 51.563573716706706,
+        "score-recall": 40.6
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_holding_water",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 64.38049521853749,
+        "score-precision": 71.8930513930514,
+        "score-recall": 58.958333333333336
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_hunting",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 23.203533308796466,
+        "score-precision": 32.5,
+        "score-recall": 20.555555555555554
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_juice",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.563736571530356,
+        "score-precision": 77.62751137751138,
+        "score-recall": 55.76923076923076
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_killing",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.127568252181256,
+        "score-precision": 73.86363636363636,
+        "score-recall": 50.90909090909091
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_moving_things",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 63.46233235927723,
+        "score-precision": 67.38324819903767,
+        "score-recall": 60.55555555555556
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_music",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.99651118920896,
+        "score-precision": 82.45440833676128,
+        "score-recall": 61.61764705882352
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_passengers",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 66.12289990929541,
+        "score-precision": 72.49313105195458,
+        "score-recall": 61.7032967032967
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_playing",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.87816450505521,
+        "score-precision": 73.49505406108821,
+        "score-recall": 67.11594202898551
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_protection",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 61.28088784680246,
+        "score-precision": 62.13393163565117,
+        "score-recall": 60.69215291750503
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_sleeping",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 52.38506829595758,
+        "score-precision": 69.54129204129204,
+        "score-recall": 43.57142857142857
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_sports",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.998323160560766,
+        "score-precision": 63.51747045071259,
+        "score-recall": 58.83921568627451
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_storage",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.396964309609835,
+        "score-precision": 68.90479327435848,
+        "score-recall": 57.31481481481482
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_transportation",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 74.72603262257795,
+        "score-precision": 81.08152996515159,
+        "score-recall": 69.78260869565217
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_for_war",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.14883142844162,
+        "score-precision": 76.20748042806866,
+        "score-recall": 58.142857142857146
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_bands",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 44.944107297048475,
+        "score-precision": 52.25824979114452,
+        "score-recall": 40.96491228070175
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_circuses",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 15.608435681965094,
+        "score-precision": 22.595238095238095,
+        "score-recall": 12.63888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_in_orchestras",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 67.75252525252526,
+        "score-precision": 80.5,
+        "score-recall": 59.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "used_on_water",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 62.53702411527572,
+        "score-precision": 64.54619252897588,
+        "score-recall": 60.98067632850241
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_around_neck",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 43.109728506787334,
+        "score-precision": 58.64502164502164,
+        "score-recall": 35.77777777777778
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_by_men",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 72.14801065777269,
+        "score-precision": 76.44937830695544,
+        "score-recall": 68.890756302521
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_by_women",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 69.1692745246248,
+        "score-precision": 72.95289395491008,
+        "score-recall": 66.33522727272728
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_covering_body",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 85.4474298041595,
+        "score-precision": 89.76761473820298,
+        "score-recall": 82.20833333333334
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_protection",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 60.31037226802947,
+        "score-precision": 69.52342755283931,
+        "score-recall": 53.88888888888889
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_for_warmth",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 65.66834635952281,
+        "score-precision": 78.29761904761905,
+        "score-recall": 60.0
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_in_winter",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 58.91542959964013,
+        "score-precision": 71.78282828282828,
+        "score-recall": 53.11111111111111
+    },
+    {
+        "norms-type": "mcrae-x-things",
+        "feature": "worn_on_feet",
+        "level": "concept",
+        "model": "gemma-2b-contextual-layers-9-to-18-seq-last-word",
+        "split": "repeated-k-fold",
+        "score-f1": 59.6052836052836,
+        "score-precision": 74.45238095238095,
+        "score-recall": 51.666666666666664
+    }
+]
