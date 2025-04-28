@@ -170,12 +170,13 @@ def show_results(
     # I had to use NumPy to be able to push those to GitHub and use them on Streamlit cloud.
     # Is there a better solution? Maybe host the files on GitHub releases?
     # Currently, the format is a bit too brittle.
-    preds = np.load("static/predictions-{}.npz".format(norms_type))
-    preds = preds["results"]
+    data = np.load("static/predictions-{}.npz".format(norms_type))
+    preds = data["results"]
+    models_all = data["models"].tolist()
     i_feature = features_selected.index(feature)
     i_models = (
-        MAIN_TABLE_MODELS.index(models[0]),
-        MAIN_TABLE_MODELS.index(models[1]),
+        models_all.index(models[0]),
+        models_all.index(models[1]),
     )
     preds = preds[i_feature, i_models]
     df = pd.DataFrame(preds.T, columns=models)
