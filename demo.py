@@ -103,6 +103,14 @@ class Sorter:
     pass
 
 
+class RandomOrder(Sorter):
+    def __call__(self, df):
+        return df.sample(frac=1).reset_index(drop=True)
+
+    def __str__(self):
+        return "random order"
+
+
 class SortByConceptName(Sorter):
     def __call__(self, df):
         return df.sort_values("concept")
@@ -234,7 +242,7 @@ if __name__ == "__main__":
     with st.sidebar:
         model1_name = selectboxq(st, "Model 1", model_names, "Gemma")
         model2_name = selectboxq(st, "Model 2", model_names, "DINOv2")
-        norms_type_name = selectboxq(st, "Dataset", norm_types_names, "McRae++")
+        norms_type_name = selectboxq(st, "Dataset", norm_types_names, "McRae×THINGS")
 
     if model1_name == model2_name:
         st.error("Please select two different models.")
@@ -278,6 +286,7 @@ if __name__ == "__main__":
     filters_str = [str(f) for f in filters]
 
     sorters = [
+        RandomOrder(),
         SortByConceptName(),
         SortByScore(model1),
         SortByScore(model2),
@@ -289,7 +298,7 @@ if __name__ == "__main__":
     cols = st.columns(4)
     feature = selectboxq(cols[0], "Feature", features_selected)
     filter_by = selectboxq(cols[1], "Filter by", filters_str)
-    sort_by = selectboxq(cols[2], "Sort by", sorters_str, default=sorters_str[1])
+    sort_by = selectboxq(cols[2], "Sort by", sorters_str, default=sorters_str[0])
     num_to_show = cols[3].number_input(
         "Number of samples to show",
         min_value=4,
