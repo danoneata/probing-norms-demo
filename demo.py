@@ -155,7 +155,7 @@ def show_results(
             lambda line: line.split(),
         )
     )
-    contexts = HFModelContextual.load_context("gpt4o_concept")
+    contexts = HFModelContextual.load_context("gpt4o_concept_context_sentences_v2")
 
     def get_path_image(concept):
         IMG_URL = "https://things-initiative.org/uploads/THINGS/images_resized/{}/{}"
