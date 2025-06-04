@@ -234,7 +234,7 @@ def selectboxq(col, name, options, default=None, *args, **kwargs):
 
 
 if __name__ == "__main__":
-    norms_types = ["mcrae-x-things", "mcrae-mapped", "binder-median"]
+    norms_types = ["mcrae-x-things", "binder-median"]
 
     model_names = [FEATURE_NAMES[m] for m in MAIN_TABLE_MODELS]
     norm_types_names = [NORMS_NAMES[n] for n in norms_types]
