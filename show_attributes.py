@@ -11,7 +11,7 @@ import streamlit as st
 
 from matplotlib import pyplot as plt
 
-from probing_norms.get_results import add_metric, FEATURE_NAMES
+from probing_norms.get_results import add_metric, COMPUTE_METRICS, FEATURE_NAMES
 from probing_norms.predict import NORMS_LOADERS
 from probing_norms.utils import multimap, read_json
 from probing_norms.scripts.eval_norm_correlations import (
@@ -72,12 +72,12 @@ def load_data_attribute_diversity():
     return pd.DataFrame([select_keys(datum) for datum in data])
 
 
-def load_data_attribute_scores():
+def load_data_attribute_scores(metric):
     classifier_type = "linear-probe"
     embeddings_level = "concept"
     splits_type = "repeated-k-fold"
     norms_type = "mcrae-x-things"
-    metric = "score-f1-selectivity"
+    # metric = "score-f1-selectivity"
 
     def load_result_features(model):
         path = "static/results/{}-{}-{}-{}-{}.json".format(
@@ -96,7 +96,8 @@ def load_data_attribute_scores():
         for r in load_result_features(m)
     ]
     df = pd.DataFrame(results)
-    df = add_metric(df, metric, norms_type=norms_type)
+    if metric in COMPUTE_METRICS:
+        df = add_metric(df, metric, norms_type=norms_type)
     df = df.pivot(index="feature", columns="model", values=metric)
     df = df.reset_index()
     df = df.rename(columns={"feature": "attribute"})
@@ -104,9 +105,9 @@ def load_data_attribute_scores():
     return df
 
 
-def load_data():
+def load_data(metric):
     df1 = load_data_attribute_diversity()
-    df2 = load_data_attribute_scores()
+    df2 = load_data_attribute_scores(metric)
     df = pd.merge(df1, df2, on="attribute", how="inner")
     return df
 
@@ -123,12 +124,12 @@ for label in LABELS:
 
 
 def main():
-    df = load_data()
-
     HELP = """
     The first two options refer to two metrics that measure how much different attributes cut across supercategories (entropy and intersection norm).
     The next options refer to the F₁ selectivity score obtained for the Swin-v2, DINO v2, CLIP (image) models.
     """
+
+    METRICS = ["score-f1", "score-f1-selectivity", "score-f1-selectivity-norm"]
 
     with st.sidebar:
         xlabel = st.selectbox(
@@ -143,6 +144,10 @@ def main():
             index=LABELS.index("dino-v2"),
             help=HELP,
         )
+        st.markdown("---")
+        metric = st.selectbox("Metric:", METRICS, index=1)
+
+    df = load_data(metric)
 
     point_selector = alt.selection_point("point_selection")
     chart = (
