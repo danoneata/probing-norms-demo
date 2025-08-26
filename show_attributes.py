@@ -11,7 +11,12 @@ import streamlit as st
 
 from matplotlib import pyplot as plt
 
-from probing_norms.get_results import add_metric, COMPUTE_METRICS, FEATURE_NAMES
+from probing_norms.get_results import (
+    COMPUTE_METRICS,
+    FEATURE_NAMES,
+    add_metric,
+    load_taxonomy_mcrae,
+)
 from probing_norms.predict import NORMS_LOADERS
 from probing_norms.utils import multimap, read_json
 from probing_norms.scripts.eval_norm_correlations import (
@@ -23,6 +28,7 @@ from probing_norms.scripts.eval_norm_correlations import (
 norms_loader_type = "mcrae-x-things"
 norms_loader = NORMS_LOADERS[norms_loader_type]()
 attribute_to_concepts, _, attributes = norms_loader()
+taxonomy = load_taxonomy_mcrae()
 
 supercategory_to_concepts = get_supercategories()
 concept_and_supercategory = [
@@ -89,12 +95,7 @@ def load_data_attribute_scores(metric):
         )
         return read_json(path)
 
-    results = [
-        r
-        for m in LABELS
-        if m in FEATURE_NAMES
-        for r in load_result_features(m)
-    ]
+    results = [r for m in LABELS if m in FEATURE_NAMES for r in load_result_features(m)]
     df = pd.DataFrame(results)
     if metric in COMPUTE_METRICS:
         df = add_metric(df, metric, norms_type=norms_type)
@@ -109,6 +110,7 @@ def load_data(metric):
     df1 = load_data_attribute_diversity()
     df2 = load_data_attribute_scores(metric)
     df = pd.merge(df1, df2, on="attribute", how="inner")
+    df["taxonomy"] = df["attribute"].map(taxonomy)
     return df
 
 
@@ -156,14 +158,17 @@ def main():
         .encode(
             x=alt.X(xlabel, title=NAMES[xlabel]),
             y=alt.Y(ylabel, title=NAMES[ylabel]),
-            tooltip=["attribute", xlabel, ylabel],
+            tooltip=["attribute", xlabel, ylabel, "taxonomy"],
+            color=alt.Color("taxonomy:N", legend=alt.Legend(title="Taxonomy")),
             fillOpacity=alt.condition(point_selector, alt.value(1), alt.value(0.3)),
         )
         .add_params(point_selector)
-        .properties(width=400, height=600)
+        .properties(width=500, height=500)
     )
 
-    st.markdown("Click on a point in the chart to see more information about that attribute. You can use the `shift` key to select more points.")
+    st.markdown(
+        "Click on a point in the chart to see more information about that attribute. You can use the `shift` key to select more points."
+    )
     event = st.altair_chart(
         chart,
         use_container_width=True,
@@ -175,7 +180,9 @@ def main():
     points = event["selection"]["point_selection"]
 
     def find_closest(df, point):
-        distances = ((df[xlabel] - point[xlabel]) ** 2 + (df[ylabel] - point[ylabel]) ** 2) ** 0.5
+        distances = (
+            (df[xlabel] - point[xlabel]) ** 2 + (df[ylabel] - point[ylabel]) ** 2
+        ) ** 0.5
         return distances.idxmin()
 
     def show_more_info(point):
@@ -190,9 +197,14 @@ def main():
 
         sc = [(s, c) for c, s in concept_and_supercategory if c in concepts]
         sc = multimap(sc)
-        sc = ["- {} ({} concepts) → {}".format(s, len(sc[s]), ", ".join(sc[s])) for s in sorted(sc.keys())]
+        sc = [
+            "- {} ({} concepts) → {}".format(s, len(sc[s]), ", ".join(sc[s]))
+            for s in sorted(sc.keys())
+        ]
         missing = set(concepts) - set(c for c, _ in concept_and_supercategory)
-        sc = sc + ["- {} ({} concepts) → {}".format("N/A", len(missing), ", ".join(missing))]
+        sc = sc + [
+            "- {} ({} concepts) → {}".format("N/A", len(missing), ", ".join(missing))
+        ]
 
         st.markdown("#### Concepts per supercategory")
         st.markdown("\n".join(sc))
@@ -200,7 +212,6 @@ def main():
     if isinstance(points, list):
         for point in points:
             show_more_info(point)
-
 
 
 if __name__ == "__main__":
