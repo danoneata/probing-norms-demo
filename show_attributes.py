@@ -135,13 +135,13 @@ def main():
 
     with st.sidebar:
         xlabel = st.selectbox(
-            "x label:",
+            "X label:",
             LABELS,
             index=LABELS.index("intersection-norm"),
             help=HELP,
         )
         ylabel = st.selectbox(
-            "y label:",
+            "Y label:",
             LABELS,
             index=LABELS.index("dino-v2"),
             help=HELP,
@@ -167,7 +167,7 @@ def main():
     )
 
     st.markdown(
-        "Click on a point in the chart to see more information about that attribute. You can use the `shift` key to select more points."
+        "💡 You can click on a point in the scatterplot to see more information about that attribute."
     )
     event = st.altair_chart(
         chart,
@@ -185,14 +185,15 @@ def main():
         ) ** 0.5
         return distances.idxmin()
 
-    def show_more_info(point):
-        i = find_closest(df, point)
+    def show_more_info(i):
+        datum = df.iloc[i]
 
-        attribute = df.iloc[i]["attribute"]
+        attribute = datum["attribute"]
         concepts = attribute_to_concepts[attribute]
         num_concepts = len(concepts)
 
         st.markdown("### Attribute: `{}`".format(attribute))
+        st.markdown("{}: {:.3f} · {}: {:.3f}".format(xlabel, datum[xlabel], ylabel, datum[ylabel]))
         st.markdown("Number of concepts: {}".format(num_concepts))
 
         sc = [(s, c) for c, s in concept_and_supercategory if c in concepts]
@@ -210,9 +211,12 @@ def main():
         st.markdown("\n".join(sc))
 
     if isinstance(points, list):
-        for point in points:
-            show_more_info(point)
-
+        i = find_closest(df, points[0])
+        show_more_info(i)
+    else:
+        attribute = st.selectbox("Attribute:", sorted(attributes))
+        i = df[df["attribute"] == attribute].index[0]
+        show_more_info(i)
 
 if __name__ == "__main__":
     main()
