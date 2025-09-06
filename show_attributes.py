@@ -40,13 +40,15 @@ concept_to_supercategories = multimap(concept_and_supercategory)
 
 
 def compute_entropy(attribute):
-    concepts = attribute_to_concepts[attribute]
     supercategories = [
-        s for c in concepts for s in concept_to_supercategories.get(c, [])
+        s
+        for c in attribute_to_concepts[attribute]
+        for s in concept_to_supercategories.get(c, [])
     ]
     counts = Counter(supercategories)
     total = sum(counts.values())
-    entropy = -sum((count / total) * log2(count / total) for count in counts.values())
+    probas = [count / total for count in counts.values()]
+    entropy = -sum(p * log2(p) for p in probas)
     return {
         "entropy": entropy,
         "counts": counts,
