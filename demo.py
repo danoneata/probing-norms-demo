@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 import altair as alt
 import numpy as np
 import pandas as pd
@@ -27,10 +29,16 @@ SPLIT_TYPE = "repeated-k-fold"
 DATASET_NAME = "things"
 
 
+def load_taxonomy_nova():
+    return defaultdict(lambda: "N/A")
+
+
 LOAD_TAXONOMY = {
     "McRae×THINGS": load_taxonomy_mcrae_x_things,
     "McRae++": load_taxonomy_mcrae,
     "Binder": load_taxonomy_binder,
+    "Binder (binarised)": load_taxonomy_binder,
+    "NOVA": load_taxonomy_nova,
 }
 
 st.set_page_config(layout="wide")
@@ -234,7 +242,7 @@ def selectboxq(col, name, options, default=None, *args, **kwargs):
 
 
 if __name__ == "__main__":
-    norms_types = ["mcrae-x-things", "binder-median"]
+    norms_types = ["mcrae-x-things", "binder-median", "nova"]
 
     model_names = [FEATURE_NAMES[m] for m in MAIN_TABLE_MODELS]
     norm_types_names = [NORMS_NAMES[n] for n in norms_types]
