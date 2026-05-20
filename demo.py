@@ -273,6 +273,52 @@ def selectboxq(col, name, options, default=None, *args, **kwargs):
     return selected
 
 
+@st.fragment
+def show_samples_section(
+    norms_type, norms_loader, models, features_selected, model1, model2, model1_name, model2_name
+):
+    filters = [NoFilter(), FilterByPositive(), FilterByNegative()]
+    filters_str = [str(f) for f in filters]
+
+    sorters = [
+        RandomOrder(),
+        SortByConceptName(),
+        SortByScore(model1),
+        SortByScore(model2),
+        SortByDifference(model1, model2),
+        SortByDifference(model2, model1),
+    ]
+    sorters_str = [str(s) for s in sorters]
+
+    cols = st.columns(4)
+    feature = selectboxq(cols[0], "Feature", features_selected)
+    filter_by = selectboxq(cols[1], "Filter by", filters_str)
+    sort_by = selectboxq(cols[2], "Sort by", sorters_str, default=sorters_str[0])
+    num_to_show = cols[3].number_input(
+        "Number of samples to show",
+        min_value=4,
+        max_value=128,
+        value=12,
+        step=4,
+    )
+
+    # def encode(s):
+    #     return s.replace(" ", "%20")
+
+    # query_string = "&".join(f"{}={}".format(encode(key), encode(value)) for key, value in st.query_params.items())
+    # shareable_url = f"{st.get_url()}?{query_string}"
+    # st.markdown(f"Shareable URL: [link]({shareable_url})")
+
+    filter = filters[filters_str.index(filter_by)]
+    sorter = sorters[sorters_str.index(sort_by)]
+    st.markdown(
+        "Results at sample level (per concept) for each of the two models ({} and {}). For each concept, we show an example of an image and a corresponding contextual sentence.".format(
+            model1_name, model2_name
+        )
+    )
+    show_results(norms_type, norms_loader, models, feature, filter, sorter, num_to_show)
+
+
 if __name__ == "__main__":
     norms_types = ["mcrae-x-things", "binder-median", "nova"]
 
@@ -322,43 +368,13 @@ if __name__ == "__main__":
     st.altair_chart(scatter)
     st.markdown("---")
 
-    filters = [NoFilter(), FilterByPositive(), FilterByNegative()]
-    filters_str = [str(f) for f in filters]
-
-    sorters = [
-        RandomOrder(),
-        SortByConceptName(),
-        SortByScore(model1),
-        SortByScore(model2),
-        SortByDifference(model1, model2),
-        SortByDifference(model2, model1),
-    ]
-    sorters_str = [str(s) for s in sorters]
-
-    cols = st.columns(4)
-    feature = selectboxq(cols[0], "Feature", features_selected)
-    filter_by = selectboxq(cols[1], "Filter by", filters_str)
-    sort_by = selectboxq(cols[2], "Sort by", sorters_str, default=sorters_str[0])
-    num_to_show = cols[3].number_input(
-        "Number of samples to show",
-        min_value=4,
-        max_value=128,
-        value=12,
-        step=4,
+    show_samples_section(
+        norms_type,
+        norms_loader,
+        models,
+        features_selected,
+        model1,
+        model2,
+        model1_name,
+        model2_name,
     )
-
-    # def encode(s):
-    #     return s.replace(" ", "%20")
-
-    # query_string = "&".join(f"{}={}".format(encode(key), encode(value)) for key, value in st.query_params.items())
-    # shareable_url = f"{st.get_url()}?{query_string}"
-    # st.markdown(f"Shareable URL: [link]({shareable_url})")
-
-    filter = filters[filters_str.index(filter_by)]
-    sorter = sorters[sorters_str.index(sort_by)]
-    st.markdown(
-        "Results at sample level (per concept) for each of the two models ({} and {}). For each concept, we show an example of an image and a corresponding contextual sentence.".format(
-            model1_name, model2_name
-        )
-    )
-    show_results(norms_type, norms_loader, models, feature, filter, sorter, num_to_show)
