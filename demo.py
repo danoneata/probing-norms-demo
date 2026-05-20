@@ -69,6 +69,24 @@ def get_predictions_path(norms_type):
     return path
 
 
+@st.cache_resource
+def load_predictions(norms_type):
+    # Generated with get_results.py aggregate_predictions_for_demo.
+    data = np.load(get_predictions_path(norms_type))
+    return data["results"], data["models"].tolist()
+
+
+@st.cache_data
+def load_image_names():
+    return dict(read_file("static/things-image-names.txt", lambda line: line.split()))
+
+
+@st.cache_resource
+def load_contexts():
+    return HFModelContextual.load_context("gpt4o_concept_context_sentences_v2")
+
+
+@st.cache_data
 def load_data(model1, model2, norms_type):
     def load_score_random_features(norms_type):
         path = f"static/results/score-random-{norms_type}.json"
@@ -182,13 +200,8 @@ class SortByDifference(Sorter):
 def show_results(
     norms_type, norms_loader, models, feature, filter, sorter, num_to_show
 ):
-    image_names = dict(
-        read_file(
-            "static/things-image-names.txt",
-            lambda line: line.split(),
-        )
-    )
-    contexts = HFModelContextual.load_context("gpt4o_concept_context_sentences_v2")
+    image_names = load_image_names()
+    contexts = load_contexts()
 
     def get_path_image(concept):
         IMG_URL = "https://things-initiative.org/uploads/THINGS/images_resized/{}/{}"
@@ -207,10 +220,7 @@ def show_results(
         def get_rating_str(concept):
             return "rating: {:.1f}".format(df_binder.loc[concept, "Value"])
 
-    # Generated with get_results.py aggregate_predictions_for_demo.
-    data = np.load(get_predictions_path(norms_type))
-    preds = data["results"]
-    models_all = data["models"].tolist()
+    preds, models_all = load_predictions(norms_type)
     i_feature = features_selected.index(feature)
     i_models = (
         models_all.index(models[0]),
