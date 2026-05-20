@@ -198,7 +198,7 @@ class SortByDifference(Sorter):
 
 
 def show_results(
-    norms_type, norms_loader, models, feature, filter, sorter, num_to_show
+    norms_type, norms_data, models, feature, filter, sorter, num_to_show
 ):
     image_names = load_image_names()
     contexts = load_contexts()
@@ -207,8 +207,7 @@ def show_results(
         IMG_URL = "https://things-initiative.org/uploads/THINGS/images_resized/{}/{}"
         return IMG_URL.format(concept, image_names[concept])
 
-    feature_to_concepts, _, features_selected = norms_loader()
-    concepts = norms_loader.load_concepts()
+    feature_to_concepts, features_selected, concepts = norms_data
 
     if norms_type == "binder-median":
         df_binder = load_binder_dense()
@@ -275,7 +274,7 @@ def selectboxq(col, name, options, default=None, *args, **kwargs):
 
 @st.fragment
 def show_samples_section(
-    norms_type, norms_loader, models, features_selected, model1, model2, model1_name, model2_name
+    norms_type, norms_data, models, features_selected, model1, model2, model1_name, model2_name
 ):
     filters = [NoFilter(), FilterByPositive(), FilterByNegative()]
     filters_str = [str(f) for f in filters]
@@ -316,7 +315,7 @@ def show_samples_section(
             model1_name, model2_name
         )
     )
-    show_results(norms_type, norms_loader, models, feature, filter, sorter, num_to_show)
+    show_results(norms_type, norms_data, models, feature, filter, sorter, num_to_show)
 
 
 if __name__ == "__main__":
@@ -339,8 +338,10 @@ if __name__ == "__main__":
     norms_type = norms_types[norm_types_names.index(norms_type_name)]
 
     norms_loader = NORMS_LOADERS[norms_type]()
-    _, _, features_selected = norms_loader()
+    feature_to_concepts, _, features_selected = norms_loader()
+    concepts = norms_loader.load_concepts()
     models = [model1, model2]
+    norms_data = (feature_to_concepts, features_selected, concepts)
 
     df = load_data(model1, model2, norms_type)
 
@@ -370,7 +371,7 @@ if __name__ == "__main__":
 
     show_samples_section(
         norms_type,
-        norms_loader,
+        norms_data,
         models,
         features_selected,
         model1,
