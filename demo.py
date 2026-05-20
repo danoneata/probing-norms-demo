@@ -1,3 +1,6 @@
+import os
+import urllib.request
+
 from collections import defaultdict
 
 import altair as alt
@@ -42,6 +45,28 @@ LOAD_TAXONOMY = {
 }
 
 st.set_page_config(layout="wide")
+
+
+# Large prediction files are hosted as GitHub Release assets (too big for the
+# repo). Files already present locally (e.g. committed to git) are used as-is;
+# missing ones are fetched once per container and cached on ephemeral storage.
+DATA_RELEASE_REPO = "danoneata/probing-norms-demo"
+DATA_RELEASE_TAG = "data-v1"
+
+
+@st.cache_resource
+def get_predictions_path(norms_type):
+    filename = "predictions-{}.npz".format(norms_type)
+    path = os.path.join("static", filename)
+    if not os.path.exists(path):
+        url = "https://github.com/{}/releases/download/{}/{}".format(
+            DATA_RELEASE_REPO, DATA_RELEASE_TAG, filename
+        )
+        os.makedirs("static", exist_ok=True)
+        tmp = path + ".tmp"
+        urllib.request.urlretrieve(url, tmp)
+        os.replace(tmp, path)
+    return path
 
 
 def load_data(model1, model2, norms_type):
@@ -182,11 +207,8 @@ def show_results(
         def get_rating_str(concept):
             return "rating: {:.1f}".format(df_binder.loc[concept, "Value"])
 
-    # FIXME These results were generated with get_results.py aggregate_predictions_for_demo
-    # I had to use NumPy to be able to push those to GitHub and use them on Streamlit cloud.
-    # Is there a better solution? Maybe host the files on GitHub releases?
-    # Currently, the format is a bit too brittle.
-    data = np.load("static/predictions-{}.npz".format(norms_type))
+    # Generated with get_results.py aggregate_predictions_for_demo.
+    data = np.load(get_predictions_path(norms_type))
     preds = data["results"]
     models_all = data["models"].tolist()
     i_feature = features_selected.index(feature)

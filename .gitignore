@@ -1,0 +1,2 @@
+# Large prediction files are hosted as GitHub Release assets, not in the repo.
+static/*.npz
